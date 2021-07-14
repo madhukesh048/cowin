@@ -27,6 +27,11 @@ class HomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              TextButton(
+                  onPressed: () {
+                    //
+                  },
+                  child: Text('GET')),
               Center(
                 child: Column(
                   children: [
