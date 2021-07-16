@@ -1,8 +1,8 @@
-import 'package:cowin/core/models/session_model.dart';
-import 'package:cowin/core/services/api_service.dart';
-import 'package:cowin/core/services/http_service.dart';
-import 'package:cowin/theme/theme.dart';
-import 'package:cowin/ui/sessions.dart';
+import 'package:fluwin/core/models/session_model.dart';
+import 'package:fluwin/core/services/api_service.dart';
+import 'package:fluwin/core/services/http_service.dart';
+import 'package:fluwin/theme/theme.dart';
+import 'package:fluwin/ui/sessions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';

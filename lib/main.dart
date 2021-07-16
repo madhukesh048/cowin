@@ -1,6 +1,6 @@
-import 'package:cowin/core/services/api_service.dart';
-import 'package:cowin/core/services/http_service.dart';
-import 'package:cowin/ui/home.dart';
+import 'package:fluwin/core/services/api_service.dart';
+import 'package:fluwin/core/services/http_service.dart';
+import 'package:fluwin/ui/home.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -23,4 +23,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

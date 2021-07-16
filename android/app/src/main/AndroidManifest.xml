@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cowin">
+    package="com.example.fluwin">
    <application
-        android:label="cowin"
+        android:label="fluwin"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

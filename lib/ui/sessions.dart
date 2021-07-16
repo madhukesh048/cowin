@@ -1,4 +1,4 @@
-import 'package:cowin/core/models/session_model.dart';
+import 'package:fluwin/core/models/session_model.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(cowin LANGUAGES CXX)
+project(fluwin LANGUAGES CXX)
 
-set(BINARY_NAME "cowin")
+set(BINARY_NAME "fluwin")
 
 cmake_policy(SET CMP0063 NEW)
 

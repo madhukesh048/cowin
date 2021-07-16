@@ -22,7 +22,7 @@ class _WebviewState extends State<Webview> {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            'Cowin',
+            'Fluwin',
             style: TextStyle(color: Colors.white),
           ),
           centerTitle: true,

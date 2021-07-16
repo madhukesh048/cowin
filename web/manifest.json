@@ -1,6 +1,6 @@
 {
-    "name": "cowin",
-    "short_name": "cowin",
+    "name": "fluwin",
+    "short_name": "fluwin",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

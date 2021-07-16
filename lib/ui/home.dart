@@ -1,6 +1,6 @@
-import 'package:cowin/theme/theme.dart';
-import 'package:cowin/ui/vaccine_finder.dart';
-import 'package:cowin/ui/webview.dart';
+import 'package:fluwin/theme/theme.dart';
+import 'package:fluwin/ui/vaccine_finder.dart';
+import 'package:fluwin/ui/webview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
-          'Cowin',
+          'Fluwin',
           style: TextStyle(color: Colors.white),
         ),
         textTheme: GoogleFonts.montserratTextTheme(

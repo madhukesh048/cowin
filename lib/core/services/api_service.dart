@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:cowin/core/models/session_model.dart';
-import 'package:cowin/core/services/http_service.dart';
+import 'package:fluwin/core/models/session_model.dart';
+import 'package:fluwin/core/services/http_service.dart';
 
 class ApiService {
   final HttpService httpService;
