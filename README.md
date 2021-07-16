@@ -19,16 +19,52 @@ This takes pincode and date from the user to show list of Hospitals available. O
 
 Other options are webview of the respective websites. Helpline uses url_launcher to open phone app.
 
-![home_fluwin](https://user-images.githubusercontent.com/31788197/125978348-2754c7ca-67a2-4fb2-b861-d290454a165c.jpg)
+## Folder Structure
+
+```
+C:.
+│   generated_plugin_registrant.dart
+│   main.dart
+│   tree.txt
+│   
+├───core
+│   ├───models
+│   │       session_model.dart
+│   │       
+│   └───services
+│           api_service.dart
+│           http_service.dart
+│           
+├───theme
+│       theme.dart
+│       
+└───ui
+        home.dart
+        sessions.dart
+        vaccine_finder.dart
+        webview.dart
+        
+```
+
+- core - consist of models and services. 
+- theme - consist of theme file used in app.
+- ui - consist of all views.
 
 
-![find_vaccine_fluwin](https://user-images.githubusercontent.com/31788197/125978639-d8794cd1-d55c-4238-92f8-8243d8f26398.jpg)
 
 
-![find_vaccine_fluwin2](https://user-images.githubusercontent.com/31788197/125978666-63c4f0ac-3672-488a-945c-e6be749ec262.jpg)
+### Screenshots from the app
+
+<a href="url"><img src="https://user-images.githubusercontent.com/31788197/125978348-2754c7ca-67a2-4fb2-b861-d290454a165c.jpg" height="420" width="240" ></a>
 
 
-![covid_fluwin](https://user-images.githubusercontent.com/31788197/125978698-d83a85eb-1adb-49e1-8645-cc0b50b8f5fc.jpg)
+<a href="url"><img src="https://user-images.githubusercontent.com/31788197/125978639-d8794cd1-d55c-4238-92f8-8243d8f26398.jpg" height="420" width="240" ></a>
+
+
+<a href="url"><img src="https://user-images.githubusercontent.com/31788197/125978666-63c4f0ac-3672-488a-945c-e6be749ec262.jpg" height="420" width="240" ></a>
+
+
+<a href="url"><img src="https://user-images.githubusercontent.com/31788197/125978698-d83a85eb-1adb-49e1-8645-cc0b50b8f5fc.jpg" height="420" width="240" ></a>
 
 ## Links of resouces used in app
 - [cowin](https://www.cowin.gov.in/)
