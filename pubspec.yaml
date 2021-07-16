@@ -27,7 +27,9 @@ dependencies:
   dio: ^4.0.0
   flutter_svg: ^0.22.0
   google_fonts: ^2.1.0
+  intl: ^0.17.0
   webview_flutter: ^2.0.10
+  url_launcher: ^6.0.9
 
 dev_dependencies:
   flutter_test:
@@ -51,6 +53,14 @@ flutter:
     - assets/icons/help_outline.svg
     - assets/icons/question_answer.svg
     - assets/icons/sick.svg
+    - assets/icons/info.svg
+    - assets/icons/sanitizer.svg
+    - assets/icons/6_ft_apart.svg
+    - assets/icons/masks.svg
+    - assets/icons/elderly.svg
+    - assets/icons/psychology.svg
+    - assets/icons/support_agent.svg
+    - assets/icons/medical_services.svg
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

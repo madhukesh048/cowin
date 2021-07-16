@@ -7,8 +7,17 @@ class ApplicationTheme {
         height: 1.5,
         fontWeight: FontWeight.w600,
       );
+  static TextStyle get subTitle20 => TextStyle(
+        fontSize: 20,
+        height: 1.5,
+        fontWeight: FontWeight.w600,
+      );
   static TextStyle get content => TextStyle(
         fontSize: 14,
+        fontWeight: FontWeight.w400,
+      );
+  static TextStyle get content18 => TextStyle(
+        fontSize: 18,
         fontWeight: FontWeight.w400,
       );
 }
