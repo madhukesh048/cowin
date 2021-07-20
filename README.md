@@ -15,7 +15,7 @@ Used Govt of India's public APIs for finding vaccines slots.This api doesnt requ
 
 Home screen is divided into three main segments. First one has all vaccine realted resources, second with other covid resources and last one has all Govt helplines.
 
-This takes pincode and date from the user to show list of Hospitals available. On click it shows the time and slots available.
+This takes pincode and date from the user to show list of Hospitals available. On click it shows the time and slots available. Eg. Pincode 560003
 
 Other options are webview of the respective websites. Helpline uses url_launcher to open phone app.
 
