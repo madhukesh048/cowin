@@ -11,7 +11,7 @@ Simple UI for easy navigation.
 
 ## API
 
-Used Govt of India's public APIs for finding vaccines slots. The apis can be found [here](https://apisetu.gov.in/public/marketplace/api/cowin)
+Used Govt of India's public APIs for finding vaccines slots.This api doesnt require any API key. The apis can be found [here](https://apisetu.gov.in/public/marketplace/api/cowin)
 
 Home screen is divided into three main segments. First one has all vaccine realted resources, second with other covid resources and last one has all Govt helplines.
 
