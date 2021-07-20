@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:fluwin/theme/theme.dart';
 import 'package:fluwin/ui/vaccine_finder.dart';
 import 'package:fluwin/ui/webview.dart';
@@ -137,12 +138,16 @@ Widget gridButton(BuildContext context, String asset, String title, String url,
             } else if (isHL) {
               launch("tel:$phone");
             } else {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => Webview(url),
-                ),
-              );
+              if (!kIsWeb) {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => Webview(url),
+                  ),
+                );
+              } else {
+                launch(url);
+              }
             }
           },
           child: SvgPicture.asset(
